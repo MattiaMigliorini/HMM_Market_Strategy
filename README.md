@@ -113,3 +113,7 @@ $$
 The figure below shows the P&L of constant strategies, i.e., only Gold $V(t)=G(t)$ and only Nasdaq $V(t)=N(t)$ (long).
 
 ![qqqplVSgldpl](img/qqqplVSgldpl.png)
+
+If we consider the mixed strategy with Nasdaq and Gold, $V(t)= \pi_t^{(1)} N(t) + \pi_t^{(2)} G(t)$, this leads to an outperformance of the Nasdaq index. However, this is not surprising, as gold alone beats the index and this strategy relies on gold from time to time depending on the weight assigned by the HMM ($W^t_{\text{GOLD}}=\pi_t^{(2)}$, plot in yellow in the background and axis on the left).
+
+![finalPerformance](img/finalPerformance.png)
